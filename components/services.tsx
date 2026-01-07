@@ -80,7 +80,7 @@ export function Services() {
                       ))}
                     </ul>
                     <Button variant="outline" className="w-full mt-4 bg-transparent" asChild>
-                      <a href="https://wa.me/8712701185" target="_blank" rel="noopener noreferrer">
+                      <a href="https://wa.me/918712701185" target="_blank" rel="noopener noreferrer">
                         Inquire Now
                       </a>
                     </Button>

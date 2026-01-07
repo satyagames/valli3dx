@@ -95,7 +95,7 @@ export function CTASection() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-accent-foreground h-12 px-8">
                 <a
-                  href="https://wa.me/8712701185"
+                  href="https://wa.me/918712701185"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2"
