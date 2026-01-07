@@ -1,11 +1,21 @@
 "use client"
 
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
 export function Footer() {
   const [openModal, setOpenModal] = useState<string | null>(null)
+
+  useEffect(() => {
+    // Listen for cookie consent modal triggers
+    const handleOpenModal = (event: CustomEvent<string>) => {
+      setOpenModal(event.detail)
+    }
+
+    window.addEventListener('openModal', handleOpenModal as EventListener)
+    return () => window.removeEventListener('openModal', handleOpenModal as EventListener)
+  }, [])
 
   const supportPages = {
     shipping: {

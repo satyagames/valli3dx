@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { CookieConsent } from '@/components/cookie-consent'
 import { generateSchemaMarkup } from '@/lib/schema'
 import './globals.css'
 
@@ -85,6 +86,7 @@ export default function RootLayout({
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
+        <CookieConsent />
       </body>
     </html>
   )
