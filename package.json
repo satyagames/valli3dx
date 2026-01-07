@@ -1,6 +1,7 @@
 {
   "name": "valli3dx",
   "version": "0.1.0",
+  "packageManager": "pnpm@8.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
