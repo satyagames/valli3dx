@@ -76,7 +76,7 @@ export function Hero() {
                 asChild
                 className="bg-accent hover:bg-accent/90 text-accent-foreground text-base h-12 px-8"
               >
-                <a href="https://wa.me/8712701185" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/918712701185" target="_blank" rel="noopener noreferrer">
                   Start Now
                 </a>
               </Button>
