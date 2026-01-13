@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useState, useEffect } from "react"
+import { MapPin } from "lucide-react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 
 export function Footer() {
@@ -193,6 +194,22 @@ export function Footer() {
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Email
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/h9nGivHKrjAef6uGA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-start gap-2"
+                >
+                  <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                  <div className="space-y-0.5 leading-tight">
+                    <div>Flat No. 112, Mighty Meadows</div>
+                    <div>Kadugodi Post, Kumbena Agrahara</div>
+                    <div>Hoskote, Bengaluru Rural</div>
+                    <div>Karnataka – 560067</div>
+                  </div>
                 </a>
               </li>
             </ul>

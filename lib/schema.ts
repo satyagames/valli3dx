@@ -10,9 +10,11 @@ export function generateSchemaMarkup() {
     email: 'valli3dx@gmail.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Flat No. 112, Mighty Meadows, Kadugodi Post, Kumbena Agrahara',
       addressCountry: 'IN',
-      addressRegion: 'Telangana',
-      addressLocality: 'Hyderabad',
+      addressRegion: 'Karnataka',
+      addressLocality: 'Hoskote',
+      postalCode: '560067',
     },
     sameAs: [
       'https://www.instagram.com/valli3dx/',
