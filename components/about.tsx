@@ -47,7 +47,7 @@ export function About() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-foreground">Our Story</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Based in Hyderabad, we create custom 3D-printed products for corporate gifting, parties, and school 
+                We create custom 3D-printed products for corporate gifting, parties, and school 
                 communities—designed to spark joy and leave a lasting impression.
               </p>
               <p className="text-muted-foreground leading-relaxed">
