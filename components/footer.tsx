@@ -197,20 +197,42 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://maps.app.goo.gl/h9nGivHKrjAef6uGA"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-start gap-2"
-                >
-                  <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                  <div className="space-y-0.5 leading-tight">
-                    <div>Flat No. 112, Mighty Meadows</div>
-                    <div>Kadugodi Post, Kumbena Agrahara</div>
-                    <div>Hoskote, Bengaluru Rural</div>
-                    <div>Karnataka – 560067</div>
-                  </div>
-                </a>
+                <div className="space-y-4">
+                  <a
+                    href="https://maps.app.goo.gl/h9nGivHKrjAef6uGA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-start gap-2"
+                  >
+                    <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                    <div className="space-y-1">
+                      <div className="text-xs font-semibold text-primary uppercase tracking-widest">Corporate Address</div>
+                      <div className="space-y-0.5 leading-tight">
+                        <div>Flat No. 112, Mighty Meadows</div>
+                        <div>Kadugodi Post, Kumbena Agrahara</div>
+                        <div>Hoskote, Bengaluru Rural</div>
+                        <div>Karnataka – 560067</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    href="https://share.google/N5x9LlDwAGfzmsikG"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-start gap-2"
+                  >
+                    <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                    <div className="space-y-1">
+                      <div className="text-xs font-semibold text-primary uppercase tracking-widest">Operational Address</div>
+                      <div className="space-y-0.5 leading-tight">
+                        <div>7-1/322, 201, MIG, Ramakrishna Niwas</div>
+                        <div>HUDA Layout, Nallagandla</div>
+                        <div>Rangareddy Dt., Hyderabad</div>
+                        <div>Telangana – 500019</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
