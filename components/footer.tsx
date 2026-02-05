@@ -277,7 +277,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/40">
-          <p className="text-sm text-muted-foreground text-center">© 2026 Valli 3DX. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground text-center">© 2026 Valli 3DX, a brand of PlanX. All rights reserved.</p>
         </div>
       </div>
 

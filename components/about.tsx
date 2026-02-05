@@ -51,8 +51,8 @@ export function About() {
                 communities—designed to spark joy and leave a lasting impression.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                What started as a passion for precision and creativity has evolved into a mission: to prove that every 
-                object we create can tell a story and strengthen connections.
+                As part of the <span className="font-semibold text-foreground">PlanX</span> family, we combine innovation with precision. 
+                What started as a passion has evolved into a mission: to prove that every object we create can tell a story and strengthen connections.
               </p>
             </div>
 
