@@ -70,7 +70,7 @@ export function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
               <Button
                 size="lg"
                 asChild
@@ -89,6 +89,11 @@ export function Hero() {
                 >
                   <Instagram className="h-5 w-5" />
                   View Gallery
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild className="text-base h-12 px-8 bg-transparent">
+                <a href="https://wa.me/c/918712701185" target="_blank" rel="noopener noreferrer">
+                  View Catalogue
                 </a>
               </Button>
             </div>
